@@ -102,3 +102,10 @@
       transform: translateY(-30px); /* Adjust the distance the image floats up */
     }
   }
+
+  @media screen and (max-width: 500px) {
+    .icons{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
