@@ -1,0 +1,12 @@
+.floating-image {
+    animation: floatUpDown 1s infinite alternate ease-in-out; /* Adjust animation duration and timing function */
+  }
+  
+  @keyframes floatUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-30px); /* Adjust the distance the image floats up */
+    }
+  }

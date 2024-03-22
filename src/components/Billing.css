@@ -1,0 +1,111 @@
+.icon{
+    border-radius: 100vw;
+    border: 3px solid lightseagreen;
+    object-fit: cover;
+    aspect-ratio: 1;
+    box-shadow: .25rem .25rem .5rem;
+}
+
+.floating-image-1 {
+    animation: floatUpDown 2s infinite alternate ease-in-out; /* Adjust animation duration and timing function */
+  }
+  
+  @keyframes floatUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-30px); /* Adjust the distance the image floats up */
+    }
+  }
+
+  .floating-image-2 {
+    animation: floatUpDown 1s infinite alternate ease-in-out; /* Adjust animation duration and timing function */
+  }
+  
+  @keyframes floatUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-30px); /* Adjust the distance the image floats up */
+    }
+  }
+
+  .floating-image-3 {
+    animation: floatUpDown 2s infinite alternate ease-in-out; /* Adjust animation duration and timing function */
+  }
+  
+  @keyframes floatUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-30px); /* Adjust the distance the image floats up */
+    }
+  }
+
+  .floating-image-4 {
+    animation: floatUpDown 1s infinite alternate ease-in-out; /* Adjust animation duration and timing function */
+  }
+  
+  @keyframes floatUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-30px); /* Adjust the distance the image floats up */
+    }
+  }
+
+  .floating-image-5 {
+    animation: floatUpDown 2s infinite alternate ease-in-out; /* Adjust animation duration and timing function */
+  }
+  
+  @keyframes floatUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-30px); /* Adjust the distance the image floats up */
+    }
+  }
+
+  .floating-image-6 {
+    animation: floatUpDown 1s infinite alternate ease-in-out; /* Adjust animation duration and timing function */
+  }
+  
+  @keyframes floatUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-30px); /* Adjust the distance the image floats up */
+    }
+  }
+
+  .floating-image-7 {
+    animation: floatUpDown 2s infinite alternate ease-in-out; /* Adjust animation duration and timing function */
+  }
+  
+  @keyframes floatUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-30px); /* Adjust the distance the image floats up */
+    }
+  }
+
+  .floating-image-8 {
+    animation: floatUpDown 1s infinite alternate ease-in-out; /* Adjust animation duration and timing function */
+  }
+  
+  @keyframes floatUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-30px); /* Adjust the distance the image floats up */
+    }
+  }
