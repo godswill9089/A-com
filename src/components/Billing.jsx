@@ -3,12 +3,12 @@ import { apple, bill, google } from '../assets';
 import styles, { layout } from '../style';
 import doe from "../assets/doe.jpg";
 import discord from "../assets/dis.png";
-import linkden from "../assets/linkedin.svg";
-import twitter from "../assets/twitter.png";
+import linkden from "../assets/linkden.png";
+import twitter from "../assets/x.png";
 import git from "../assets/git.png"
 import facebook from "../assets/facebook.png";
 import raddit from "../assets/raddit.png";
-import insta from "../assets/insta.jpg";
+import insta from "../assets/insta.png";
 import notion from "../assets/notion.png";
 import "./Billing.css";
 
