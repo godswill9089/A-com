@@ -10,3 +10,11 @@
       transform: translateY(-30px); /* Adjust the distance the image floats up */
     }
   }
+
+ 
+
+  @media screen and (max-width: 500px) {
+    .ss{
+      line-height: 50px !important;
+    }
+  }
