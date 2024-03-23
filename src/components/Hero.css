@@ -17,4 +17,16 @@
     .ss{
       line-height: 50px !important;
     }
+
+    .floating-image {
+      margin-top: 30px;
+    }
+
+    .image-dev{
+      margin-bottom: 0px;
+    }
+
+    .hero {
+      padding-bottom: 0px;
+    }
   }
