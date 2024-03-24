@@ -108,4 +108,8 @@
       flex-wrap: wrap;
       justify-content: center;
     }
+
+    .bill-p{
+      margin-bottom: 25px !important;
+    }
   }

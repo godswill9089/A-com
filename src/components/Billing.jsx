@@ -25,7 +25,7 @@ const Billing = () => {
 
         <div className={layout.sectionInfo}>
           <h2 className={styles.heading2}>Decentralized <br className='sm:block hidden'/> <span className='text-gradient'> Governance </span></h2>
-          <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+          <p className={`${styles.paragraph} max-w-[470px] mt-5 bill-p`}>
           We empowers community members to actively shape the 
           direction of ACOMUnity Master DAO. Efficient 
           resource allocation ensures maximum impact and 
