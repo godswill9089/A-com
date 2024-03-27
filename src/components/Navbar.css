@@ -1,0 +1,6 @@
+.nav{
+    position: fixed;
+    background-color: #00040ff0;
+    z-index: 10 !important;
+    width: 100%;
+}

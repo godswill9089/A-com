@@ -4,6 +4,7 @@ import styles from '../style';
 import { close, menu } from '../assets';
 import acom from "../assets/nav-logo.png";
 import { navLinks } from '../constants';
+import "./Navbar.css";
 
 const Navbar = () => {
 const [toggle, setToggle] = useState(false);
