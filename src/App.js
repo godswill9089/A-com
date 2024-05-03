@@ -1,37 +1,17 @@
 import React from 'react'
-import styles from './style';
-import {Navbar, Hero, Billing, CardDeal, Business, Clients, CTA, Stats, Footer, Testimonials,}  from './components';
+import AcomDAO from './components/Pages/AcomDAO';
+import { Routes, Route, } from 'react-router-dom';
+import Home from './components/Pages/Home/Home';
+import { headerRoutes }from "./components/Routes/Route"
+
 
 const App = () => {
   return (
-    <div className='bg-primary w-full overflow-hidden'>
-      <div className={`${styles.paddingX} ${styles.flexCenter} nav`}>
-        <div className={`${styles.boxWidth}`}>
-          <Navbar />
-        </div>
-      </div>
+    <Routes>
+    <Route path='/' element={<Home/>} />
+    <Route path={headerRoutes.AcomDAO} element={<AcomDAO />} />
+  </Routes>
 
-
-      <div className={`bg-primary ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Hero />
-        </div>
-      </div>
-
-
-      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-        <Stats />
-        <Business />
-        <Billing />
-        <CardDeal />
-        <Testimonials />
-        <Clients />
-        <CTA />
-        <Footer />
-        </div>
-      </div>
-    </div>
   )
 }
 

@@ -109,6 +109,11 @@
       justify-content: center;
     }
 
+    .main-header3{
+      font-size: 25px;
+      line-height: 35px;
+    }
+
     .bill-p{
       margin-bottom: 25px !important;
     }

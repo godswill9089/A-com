@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    height: .1rem;
+    width: .5rem;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #67ccff;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #10192c;
+    border-radius: 5rem;
+}
+
+.body{
+    background: #1d002c;
+    overflow-x: hidden;
+    color: #fff;
+    overflow: hidden;
+}
+
+.header{
+    padding: 25px 10%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    align-items: center;
+    width: 100%;
+    z-index: 1001;
+}
+
+.section{
+    min-height: 100vh;
+}
+
+.Coming-soon-Home{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.Coming-soon-Home img{
+    position: absolute;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+.Coming-soon-Home #text{
+    position: absolute;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-shadow: 0 10px 4px rgb(0,0,0,0.85);
+    top: 80%;
+    left: 3%;
+}
+
+.Coming-soon-Home img#moon, .about img#desert2{
+    mix-blend-mode: screen !important;
+}
+
+.about{
+    position: relative;
+    margin-top: 40px;
+}
+
+.about img{
+    position: absolute;
+    z-index: 100;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+.about img.about-waterfall{
+    position: absolute;
+    top: -95px;
+}
+
+.about .info-box{
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    width: 50%;
+    z-index: 1003;
+    background: #1d002c;
+}
+
+.about .info-box h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.about .info-box p{
+    margin-bottom: 1.5rem;
+    margin-top: .5rem;
+}
+
+.link{
+    background-color: #12f7ff;
+    color: #1d002c;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: .5rem 1rem;
+    transition: all .3s ease;
+    border: 2px solid  #12f7ff;
+}
+
+.link:hover{
+    box-shadow: 0 0 1rem #12f7ff;
+    background: #1d002c;
+    color: #12f7ff;
+}
+
+.product{
+    background: #121137;
+    padding: 3rem 10%;
+    margin-top: 55%;
+}
+
+.product h2{
+    font-size: 2rem;
+    padding: 2rem 0 1rem 0;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.product-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem !important;
+}
+
+.card{
+    padding: 1rem;
+    border: 2px solid #12f7ff;
+    text-align: center;
+    border-radius: 25px;
+    display: block;
+    transition: all .4s ease;
+    z-index: 999;
+}
+
+.card:hover{
+    cursor: pointer;
+    transform: translateY(-7px);
+}
+
+.card img{
+    width: 150px;
+    height: 150px;
+    margin-top: -4rem;
+    filter: drop-shadow(0 0 0.5rem #1797ff);
+}
+
+.card .price-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price-name h3{
+    font-size: 1.5rem;
+}
+
+.info{
+    padding-bottom: .5rem;
+}
+
+.info p{
+    padding: .5rem 0 1.5rem 0;
+}
+
+.info .link{
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+
+.price-name span{
+    color: #04cf37;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#progress{
+    position: fixed;
+   
+    z-index: 1000;
+    bottom: 60px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    display: none;
+    place-items: center;
+    border-radius: 50%;
+    color: #1d002c;
+    cursor: pointer;
+}
+
+#progress-value{
+    display: block;
+    height: calc(100% - 12px);
+    width: calc(100% - 12px);
+    background: #fff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+}

@@ -2,9 +2,10 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
 
 export const navLinks = [
   {
-    id: "Acom",
+    link: "/Acom",
     title: "ACOMUnityDAO",
   },
+  
   {
     id: "ATeam",
     title: "ATeamDAO",
@@ -27,23 +28,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Revolutionizing Decentralized Collaboration",
+    title: "Early Adoption Advantage:",
     content:
-      "ACOMUnity Master DAO aims to revolutionize and conduct efficient WEB3 ecosystem.",
+      "By joining ACOMUnity DAO early, you position yourself at the forefront of innovation, unlocking the potential for substantial growth and higher returns as our community expands.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "Interconnected DAOs",
+    title: "Influence and Leadership:",
     content:
-      " This interconnected structure allows for enhanced coordination and efficiency.",
+      "Early adopters have the opportunity to shape the direction and culture of the ACOMUnity DAO community. By actively participating in discussions, proposing ideas, and contributing to the platform's development.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Empowering WEB3 Communities",
+    title: "Real-World Solutions:",
     content:
-      "ACOMUnity Master DAO empowers WEB3 communities by providing a robust infrastructure for decentralized collaboration.",
+      "Our platform serves as a hub for collaboration and innovation, enabling community members to propose and implement real-world solutions that align with their interests and values.",
   },
 ];
 
@@ -144,14 +145,14 @@ export const footerLinks = [
     ],
   },
   {
-    title: "Partner",
+    title: "Governor",
     links: [
       {
-        name: "Our Partner",
+        name: "Our Governors",
         link: "https://www.hoobank.com/our-partner/",
       },
       {
-        name: "Become a Partner",
+        name: "Become a Governor",
         link: "https://www.hoobank.com/become-a-partner/",
       },
     ],

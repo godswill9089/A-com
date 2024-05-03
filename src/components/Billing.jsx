@@ -1,5 +1,4 @@
 import React from 'react'
-import { apple, bill, google } from '../assets';
 import styles, { layout } from '../style';
 import doe from "../assets/doe.jpg";
 import discord from "../assets/dis.png";
@@ -11,9 +10,22 @@ import raddit from "../assets/raddit.png";
 import insta from "../assets/insta.png";
 import notion from "../assets/notion.png";
 import "./Billing.css";
+import { useEffect } from 'react';
+import ScrollReveal from 'scrollreveal';
 
 
 const Billing = () => {
+  const sr = ScrollReveal({
+    reset: true,
+    distance: '60px',
+    duration: 2500,
+    delay: 400
+  });
+
+  useEffect(() => {
+    sr.reveal('.main-header3', { delay: 500, origin: 'right' });
+  }, []);
+
   return (
     <section id='product' className={layout.sectionReverse}>
         <div className={layout.sectionImgReverse}>
@@ -24,12 +36,13 @@ const Billing = () => {
         </div>
 
         <div className={layout.sectionInfo}>
-          <h2 className={styles.heading2}>Decentralized <br className='sm:block hidden'/> <span className='text-gradient'> Governance </span></h2>
+          <h2 className={`${styles.heading2} main-header3`}>Vision and<span className='text-gradient'> Mission </span></h2>
           <p className={`${styles.paragraph} max-w-[470px] mt-5 bill-p`}>
-          We empowers community members to actively shape the 
-          direction of ACOMUnity Master DAO. Efficient 
-          resource allocation ensures maximum impact and 
-          sustainable growth within ACOMUnity Master DAO.
+          Our vision is to create a world where each individual can contribute 
+          to and benefit from the most transformative technologies of our era. 
+          The mission, therefore, is to construct a robust and thriving DAO 
+          that acts as a launchpad for initiatives that not only promise returns
+           but also drive forward the ethos of decentralization.
           </p>
 
           <div className='flex flex-row icons gap-4 sm:mt-10 mt-6'>

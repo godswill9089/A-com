@@ -4,8 +4,22 @@ import { discount } from '../assets';
 import rob from "../assets/rob.png";
 import GetStarted from './GetStarted';
 import "./Hero.css";
+import ScrollReveal from 'scrollreveal';
+import { useEffect } from 'react';
 
 const Hero = () => {
+
+  const sr = ScrollReveal({
+    reset: true,
+    distance: '60px',
+    duration: 2500,
+    delay: 400
+  });
+
+  useEffect(() => {
+    sr.reveal('.main-header', { delay: 500, origin: 'left' });
+  }, []);
+
   return (
    <section id='home' className={`flex md:flex-row flex-col ${styles.paddingY} hero-top`}>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 mobile`}>
@@ -18,7 +32,7 @@ const Hero = () => {
         </div>
 
         <div className='flex flex-row justify-between items-center w-full'>
-          <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[75px] ss leading-[20px]'>
+          <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[75px] ss leading-[20px] main-header'>
            <br className='sm-block hidden'/>
           {" "}
           <span className='text-gradient'>
@@ -32,9 +46,9 @@ const Hero = () => {
         </div>
 
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          ACOMUnity Master DAO is a groundbreaking concept that 
-          introduces a new paradigm in decentralized autonomous 
-          organizations (DAOs).
+         Welcome to ACOMUnity, the revolutionizing community solutions. 
+         Our platform offers more than just an ordinary opportunity—it's 
+         a gateway to a self-sustainable future of community empowerment.
         </p>
       </div>
 

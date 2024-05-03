@@ -1,6 +1,5 @@
 import {React, useState} from 'react'
-import styles from '../style';
-
+import { Link } from "react-router-dom";
 import { close, menu } from '../assets';
 import acom from "../assets/nav-logo.png";
 import { navLinks } from '../constants';
@@ -11,10 +10,12 @@ const [toggle, setToggle] = useState(false);
 
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar'>
-     <div className='flex items-center justify-between'>
+    <Link to="/">
+    <div className='flex items-center justify-between'>
         <img src={acom} alt='A-team' className='w-[50px] h-[50px]' />
         <h1 className='text-white text-gradient font-poppins  ss:text-[20px] ml-3'>ACOMUnity</h1>
      </div>
+    </Link>
 
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
         {navLinks.map((nav, index) => (
@@ -30,9 +31,9 @@ const [toggle, setToggle] = useState(false);
           mr-10
           `}
           >
-            <a href={` #${nav.id}`}>
+            <Link to={`${nav.link}`}>
               {nav.title}
-            </a>
+            </Link>
           </li>
         ))};
       </ul>
